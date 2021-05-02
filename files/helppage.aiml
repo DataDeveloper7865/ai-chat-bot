@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+    <category>
+        <pattern>help*</pattern>
+        <template>You may want to schedule an appoint with a live counsleor if
+        this service did not meet your needs. Please contact 999-999-9999.
+            <button>
+                <text>10:00:00 AM PST</text>
+                <postback>thank you</postback>
+            </button>
+        </template>
+    </category>
 </aiml>
