@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
     <category>
-        <pattern>Network Engineer</pattern>
-        <template>Network engineers are the technical experts responsible for setting up computer networks,
+        <pattern>Success Network Engineer</pattern>
+        <template>We think you'd like to explore a career in network engineering. Most of the top jobs in computer science 
+        require some to a lot amount of software writing. You answered that you did not enjoy programming so network engineering
+        can be less involved in writing computer code. Network engineers are the technical experts responsible for setting up computer networks,
         maintaining them, and offering technical support to users where necessary.
             <br></br> <br></br>
             <link>
@@ -11,7 +13,7 @@
             </link>
             <button>
                 <text>Click here to go back to exploring more careers.</text>
-                <postback>top jobs</postback>
+                <postback>top careers</postback>
             </button>
             <button>
                 <text>Click here for help picking the right career.</text>
