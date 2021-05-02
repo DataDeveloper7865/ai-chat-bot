@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>frontend developer</pattern>
+        <template>Understanding of layout aesthetics and a rigor for programming are prerequisites in the front-end web developer job description. 
+        This unique expertise combines user interface know-how with CSS, HTML, JavaScript and jQuery. It comes from in-depth knowledge of web 
+        technologies gained from research and professional experience.
+            <br></br> <br></br>
+            <link>
+                <text> Cick this link to learn more about front end developers</text>
+                <url>https://www.roberthalf.com/blog/salaries-and-skills/hot-job-front-end-web-developer#:~:text=A%20front%2Dend%20web%20developer,languages%20to%20write%20web%20pages</url>
+            </link>
+            <button>
+                <text>Click here to go back to exploring more careers.</text>
+                <postback>top careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>find a career</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

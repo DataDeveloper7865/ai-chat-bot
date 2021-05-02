@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>start</pattern>
+        <template>Welcome! I am the student career bot for the department of Computer Science. To get started please select from the opitions below: 
+            <button>
+                <text>Learn about top 5 careers</text>
+                <postback>top careers</postback>
+            </button>
+            <button>
+                <text>Help me pick a career</text>
+                <postback>find a career</postback>
+            </button>    
+        </template>
+    </category>
+   
+   <category>
+        <pattern>top careers</pattern>
+        <template>Here are 5 Computer Science careers that you can look into with your degree
+            <button>
+                <text>Software Engineer</text>
+                <postback>Software Engineer</postback>
+            </button>
+            <button>
+                <text>Front End Developer</text>
+                <postback>Front End Developer</postback>
+            </button>
+            <button>
+                <text>Back-End Engineer</text>
+                <postback>Back-End Engineer</postback>
+            </button>
+            <button>
+                <text>Network Engineer</text>
+                <postback>Network Engineer</postback>
+            </button>
+            <button>
+                <text>Database Admin</text>
+                <postback>Database Admin</postback>
+            </button>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>find a career</pattern>
+        <template>We will assess your stengths and interest through the following questions.
+        <br></br><br></br>
+        Do you have an interest in programming?
+            <button>
+                <text>yes</text>
+                <postback>softwareengineer</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>network question</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>softwareengineer</pattern>
+        <template> Do you have a lot of experience working with web applications or API's?  
+            <button>
+                <text>yes</text>
+                <postback>softwareengineer 2</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>cyber question</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>network question</pattern>
+        <template> Do you have experience working with computer networks?
+            <button>
+                <text>yes</text>
+                <postback>network question 2</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>database question</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>softwareengineer 2</pattern>
+        <template> Do you enjoy the front end more than the backend?
+            <button>
+                <text>yes</text>
+                <postback>Front End question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>Back-End Engineer question</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>cyber question</pattern>
+        <template> Do you enjoy working more with networks and security applications?
+            <button>
+                <text>yes</text>
+                <postback>Front End Developer question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>no suggested job</postback>
+            </button>
+        </template>
+    </category>
+        <category>
+        <pattern>network question 2</pattern>
+        <template> Do you enjoy engineering, designing, installing, testing, and maintaining software systems?
+            <button>
+                <text>yes</text>
+                <postback>Software Engineer question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>cyber question</postback>
+            </button>
+        </template>
+    </category>
+            <category>
+        <pattern>database question</pattern>
+        <template>Do you enjoy using databases to store, organize, and protect data?
+            <button>
+                <text>yes</text>
+                <postback>Network Engineer question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>network question 2</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

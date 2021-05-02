@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>network engineer</pattern>
+        <template>Network engineers are the technical experts responsible for setting up computer networks,
+        maintaining them, and offering technical support to users where necessary.
+            <br></br> <br></br>
+            <link>
+                <text> Cick this link to learn more about network engineers.</text>
+                <url>https://www.allaboutcareers.com/job-profile/network-engineer/#:~:text=Network%20engineers%20are%20the%20technical,support%20to%20users%20where%20necessary.&text=On%20the%20hardware%20side%20of,as%20routers%2C%20switches%20and%20cables.</url>
+            </link>
+            <button>
+                <text>Click here to go back to exploring more careers.</text>
+                <postback>top careers</postback>
+            </button>
+            <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>find a career</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>database administrator</pattern>
+        <template>Database administrators (DBAs) use specialized software to store and organize data.
+            <br></br> <br></br>
+            <link>
+                <text> Cick this link to learn more about database administrators</text>
+                <url>https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm</url>
+            </link>
+            <button>
+                <text>Click here to go back to exploring more careers.</text>
+                <postback>top careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>find a career</postback>
+            </button>
+        </template>
+    </category>
+</aiml>
